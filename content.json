@@ -1,0 +1,142 @@
+{
+  "header": {
+    "navLinks": [
+      {
+        "id": "home",
+        "text": "Home"
+      },
+      {
+        "id": "about",
+        "text": "About"
+      },
+      {
+        "id": "projects",
+        "text": "Projects"
+      },
+      {
+        "id": "skills",
+        "text": "Skills"
+      },
+      {
+        "id": "contact",
+        "text": "Contact"
+      }
+    ]
+  },
+  "hero": {
+    "heading": "Hi, I’m Harshit Sharma",
+    "subheading": "Self-taught, curious, and always building something new.",
+    "buttonText": "Let’s Connect"
+  },
+  "about": {
+    "heading": "About Me",
+    "paragraphs": [
+      "I'm Harshit Sharma, a self-taught explorer with a constant curiosity about the latest developments in technology. For the past few years, I've been fascinated by AI, experimenting with various tools, delving into prompt engineering, and seeking to understand how these systems work and evolve. I have also explored Python scripting, UI/UX design, and developed web applications using React and Next.js. Recently, I started exploring 3D modeling as a new creative avenue for how I approach and construct projects.",
+      "Cybersecurity has also caught my interest. I have taken the time to study Kali Linux, create virtual machines, and experiment with different operating systems to understand their real-world responses.",
+      "While I don't always complete every project I start, I pour my energy into the ones that excite me. I love the thrill of bringing concepts to life that didn't exist before and then feeling inspired to pursue the next idea.",
+      "I don't have a fixed plan—just a collection of ideas, curiosity, and a drive to continuously create something new."
+    ]
+  },
+  "projects": {
+    "heading": "My Projects",
+    "developmentProjects": [
+      {
+        "title": "Project Alpha",
+        "link": "#",
+        "imageUrl": "https://res.cloudinary.com/portfolio-harshit/image/upload/v1752820800/cwhdmbevzbqtxff8dskg.png",
+        "projectLink": "https://github.com/H-sharma63"
+      },
+      {
+        "title": "",
+        "projectLink": "",
+        "imageUrl": ""
+      },
+      {
+        "title": "",
+        "projectLink": "",
+        "imageUrl": ""
+      },
+      {
+        "title": "",
+        "projectLink": "",
+        "imageUrl": ""
+      }
+    ],
+    "designProjects": [
+      {
+        "title": "Design Concept X",
+        "link": "#",
+        "imageUrl": "https://via.placeholder.com/260x200"
+      },
+      {
+        "title": "",
+        "projectLink": "",
+        "imageUrl": ""
+      },
+      {
+        "title": "",
+        "projectLink": "",
+        "imageUrl": ""
+      },
+      {
+        "title": "",
+        "projectLink": "",
+        "imageUrl": ""
+      },
+      {
+        "title": "",
+        "projectLink": "",
+        "imageUrl": ""
+      }
+    ]
+  },
+  "skills": {
+    "heading": "My Skills",
+    "skillList": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "Tailwind CSS",
+      "Shadcn",
+      "Framer Motion",
+      "Git",
+      "GitHub",
+      "FireBase",
+      "SupaBase",
+      "Node.js",
+      "Next.js",
+      "React",
+      "Python",
+      "Blender",
+      "Virtual Machine",
+      "Kali Linux",
+      "VS Code",
+      "Vercel",
+      "Prompt Engineering",
+      "Neon Database",
+      "Figma"
+    ]
+  },
+  "connect": {
+    "heading": "Let's Connect",
+    "description": " Whether you want to talk tech, collaborate on a project, or just say hi — I’d love to hear from you. Drop me a message and I’ll get back as soon as I can."
+  },
+  "footer": {
+    "copyright": "© 2025 Harshit Sharma. All rights reserved. ",
+    "socialLinks": {
+      "github": "https://github.com/H-sharma63",
+      "linkedin": "https://www.linkedin.com/in/harshitsharma1060",
+      "mail": "harshitsharma1060@gmail.com, 627harshit@gmail.com"
+    }
+  },
+  "modelSettings": {
+    "modelUrl": "/model.glb",
+    "rotationSpeed": 0,
+    "scale": 4.4,
+    "lightIntensity": 1.5,
+    "lightColor": "#e9edd9",
+    "animationDelay": 1300,
+    "animationPlaybackSpeed": 1
+  }
+}

@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Slick Carousel CSS */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+/* Custom styles for Projects Slider to hide horizontal scrollbar */
+.projects-slider .slick-list {
+  overflow: hidden !important;
+}
+
+.project-card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, z-index 0.3s ease-in-out;
+  position: relative; /* Needed for z-index to work */
+}
+
+.project-card:hover {
+  transform: scale(1.05); /* Enlarge by 5% */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Add a shadow */
+  z-index: 10; /* Bring to front */
+}
+
+body {
+  background-color: #3A3A3A;
+  color: white;
+}
+
+/* globals.css */
+
+.bg-grid {
+  background-color: #3a3a3a;
+  background-image:
+    linear-gradient(to right, #cacaca14 1px, transparent 1px),
+    linear-gradient(to bottom, #cacaca14 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-repeat: repeat;
+  background-position: top left;
+}
+
+
+/* Custom scrollbar styles */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px; /* Adjust as needed */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent; /* Hide the track background */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the thumb */
+  border-radius: 4px; /* Rounded corners for the thumb */
+  margin-right: -1px; /* Move the scrollbar 1px to the left */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color of the thumb on hover */
+}
+
+/* Global scrollbar styles for the homepage */
+::-webkit-scrollbar {
+  width: 8px; /* Adjust as needed */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Hide the track background */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #CACACA; /* Color of the thumb */
+  border-radius: 4px; /* Rounded corners for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #B0B0B0; /* Slightly darker color on hover */
+}
